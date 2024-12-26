@@ -4,3 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+actix-web = "4.9.0"
+argon2 = "0.5.3"
+serde = "1.0.216"
+diesel = { version = "2.2.0", features = ["postgres"] }

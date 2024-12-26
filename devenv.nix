@@ -14,7 +14,6 @@
         name = "auth_db";
         user = "auth_user";
         pass = "auth_password";
-        schema = ./auth-service/schema.sql;
       }
     ];
     port = 5432;  # Default port for PostgreSQL
